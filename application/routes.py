@@ -8,7 +8,7 @@ from application import db
 from datetime import datetime
 
 @app.route("/")
-def get_todos():
+def get_todo():
     todos = []
     for todo in db.todos_flask.find().sort("date_created", -1):
         todo["_id"] = str(todo["_id"])
@@ -61,3 +61,9 @@ def update_todo(id):
         form.completed.data = todo.get("completd", None)
 
     return render_template("add_todo.html", form = form)
+
+@app.route("/delete_todo/<id>")
+def delete_todo(id):
+    db.todos_flask.find_one_and_delete({"_id": ObjectId(id)})
+    flash("Todo deleted","success")
+    return redirect("/")
