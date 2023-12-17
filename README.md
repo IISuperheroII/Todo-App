@@ -29,7 +29,7 @@ This is a web-based Todo application built with Flask, a Python web framework, a
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/todo-management-system.git
+    git clone [https://github.com/IISuperheroII/Todo-App]
     ```
 
 2. Navigate to the project directory:
