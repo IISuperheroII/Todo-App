@@ -72,10 +72,7 @@ Visit [http://localhost:5000](http://localhost:5000) in your web browser to acce
 
 Contributions are welcome! If you have suggestions, bug reports, or would like to add new features, feel free to open an issue or submit a pull request.
 
-### License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-For more information about the project, contact [your-email@example.com].
+For more information about the project, contact [wael22ka@hotmail.com].
